@@ -22,9 +22,9 @@ And will appear a window with a prepared funny "game".
 **TO CLOSE THE WINDOW** in your console press (Ctrl + C) 1 time, and several occasions if your system don't works (don't worry).
 
 # How to use?
-> To pause the game, you must press any key and to resume, you must do the same.
-> To create automata, with your mouse give a left click in a cell.
-> To delete automata, with your mouse give right click in a cell.
-> Enjoy the game.
+- To pause the game, you must press any key and to resume, you must do the same.
+- To create automata, with your mouse give a left click in a cell.
+- To delete automata, with your mouse give right click in a cell.
+- Enjoy the game.
 
 *Enjoy this game, you will love how works the automata.*
