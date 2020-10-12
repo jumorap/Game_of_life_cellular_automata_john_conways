@@ -1,4 +1,3 @@
-v1.0
 - Platform supported **Windows, Linux, Mac**
 - Tutorial oriented to: **Windows**
 # What is?
