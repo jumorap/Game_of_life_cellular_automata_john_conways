@@ -10,9 +10,9 @@
 # How install?
 > **1.** Open your console (press Windows + R, write *cmd*) and use:
 - git clone https://github.com/jumorap/Game_of_life_cellular_automata_john_conways
-> **2.**  Need install the libraries **numpy, time, pygame**, so, if do you need, can install **pip** in your PC. If you already installed **pip**, use next commands:
+> **2.**  Need install the libraries **numpy, times, pygame**, so, if do you need, can install **pip** in your PC. If you already installed **pip**, use next commands:
 - pip install numpy
-- pip install time
+- pip install times
 - pip install pygame
 > **3.** If you already installed it, execute in your console: 
 - cd Game_of_life_cellular_automata_john_conways
