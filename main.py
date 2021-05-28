@@ -56,6 +56,14 @@ game_state[27, 29] = 1
 game_state[33, 21] = 1
 game_state[25, 15] = 1
 
+print("\n _______  _______  __   __  _______    _______  _______    ___      ___   _______  _______"
+      "\n|       ||   _   ||  |_|  ||       |  |       ||       |  |   |    |   | |       ||       |"
+      "\n|    ___||  |_|  ||       ||    ___|  |   _   ||    ___|  |   |    |   | |    ___||    ___|"
+      "\n|   | __ |       ||       ||   |___   |  | |  ||   |___   |   |    |   | |   |___ |   |___ "
+      "\n|   ||  ||       ||       ||    ___|  |  |_|  ||    ___|  |   |___ |   | |    ___||    ___|"
+      "\n|   |_| ||   _   || ||_|| ||   |___   |       ||   |      |       ||   | |   |    |   |___ "
+      "\n|_______||__| |__||_|   |_||_______|  |_______||___|      |_______||___| |___|    |_______|\n")
+
 print("REMEMBER THAT TO PAUSE THE GAME, YOU HAVES TO PRESS ANY KEY IN YOUR KEYBOARD,\n"
       "AND IF YOU WANT DRAW NEW BOXES, YOU HAVE TO PRESS ANY KEY AND PAINT WITH THEIR LEFT CLICK OF MOUSE")
 
@@ -65,7 +73,7 @@ while True:
     new_game_state = np.copy(game_state)
 
     screen.fill(bg)
-    time.sleep(0.05)
+    time.sleep(0.1)
 
     # We register the click event to make better the user experience
     eve = pygame.event.get()
@@ -123,27 +131,4 @@ while True:
     # Update the window and the state of game
     game_state = np.copy(new_game_state)
     pygame.display.flip()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
