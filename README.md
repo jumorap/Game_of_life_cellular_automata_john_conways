@@ -10,7 +10,7 @@
 - Rule #1: A cell is "dead" if have 3 neighbors alive around.
 - Rule #2: A cell is "alive" with less of 2 of more than 3 neighbors alive.
 ---
-# How install?
+# How to install?
 **1.** Open your console and clone the repo:
 ```
 git clone https://github.com/jumorap/Game_of_life_cellular_automata_john_conways
@@ -38,3 +38,8 @@ And will appear a window with a started funny "game".
 # Possible troubles
 If you are in Windows, using **python3** might not work. Use **python** instead.<br/>
 If you can´t finish the game, just close the console or press (Ctrl + C)
+
+# License
+MIT © Game of Life
+
+-> Feel free to modify this game
